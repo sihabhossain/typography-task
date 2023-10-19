@@ -1,0 +1,40 @@
+.typography-popup{
+  margin-top: 20px;
+  margin-left: 100px;
+  display: flex;
+  gap: 200px;
+  justify-items: center;
+  align-items: center;
+  border-radius: 10px
+}
+
+.popup-icons{
+  display: flex;
+  gap: 10px;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+.popup-content{
+  width: 350px;
+}
+
+.popup {
+  position: fixed;
+  top: 60px;
+  left: 100px;
+  height: 640px;
+  width: 350px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.results-section {
+  width: 50%;
+  padding: 3rem;
+  display: flex;
+  column-gap: 2rem;
+  margin-left: 200px
+}

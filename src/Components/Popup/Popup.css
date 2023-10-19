@@ -1,0 +1,78 @@
+.typography_body {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0px;
+    
+}
+
+.head_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.head_section button {
+    border: none;
+    border-radius: 0.3rem;
+    background: none;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.75rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Main content styling */
+
+/* Select section */
+
+
+.select_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin: 15px;
+}
+
+.select_section select {
+    outline: none;
+    border-radius: 0.2rem;
+    width: 40%;
+    padding: 0.5rem;
+}
+
+.range_section {
+    line-height: 0;
+    margin-bottom: 1rem;
+    margin: 15px;
+    
+}
+
+.measurement_name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.measurement_name p span {
+    margin-right: 1rem;
+}
+
+.measurement_name select {
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+}
+
+.measurement_unit {
+    display: grid;
+    grid-template-columns: 75% 20%;
+    column-gap: 5%;
+}
+
+.measurement_unit input {
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
